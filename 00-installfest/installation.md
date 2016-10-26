@@ -33,7 +33,7 @@ You will need to install certain tools that will be used throughout the course. 
 
 4. __Install Node__
 
-  Refer to the package installer on Node’s [website](https://nodejs.org/en/). Just follow the set-up instructions.
+  Refer to the package installer on Node’s [website](https://nodejs.org/en/). Select the LTS version (labeled "Recommended for Most Users"). Then just follow the set-up instructions.
 
 5. __Ensure NPM is updated__
 
@@ -68,7 +68,7 @@ You will need to install certain tools that will be used throughout the course. 
   ```
 
 3. __Install Node__
-  Refer to the package installer on Node’s [website](https://nodejs.org/en/). Just follow the set-up instructions.
+  Refer to the package installer on Node’s [website](https://nodejs.org/en/). Select the LTS version (labeled "Recommended for Most Users"). Then just follow the set-up instructions.
 
 4. __Install Visual Studio Code__
 
