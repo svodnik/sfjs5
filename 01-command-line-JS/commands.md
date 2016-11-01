@@ -26,3 +26,14 @@
 | `cd ..`| go up one folder/directory
 | `cd ~` | go to home folder/directory |
 | `cd` | shorthand for `cd ~` |
+
+# 4. Git commands
+| Command | Description |
+| --- | --- |
+| `git init` | Create new repository |
+| `git status` | See the status of files in your repo |
+| `git log` | Look at a list of commits |
+| `git add` | Add files to the stage for committing |
+| `git commit` | Create a snapshot of your project |
+| `git push` | Push updates to GitHub |
+| `git pull` | Pull updates from GitHub |
