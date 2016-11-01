@@ -10,3 +10,5 @@
 
 * [More practice on Git/GitHub](https://try.github.io)
 * [More practice on the command line](https://learnpythonthehardway.org/book/appendixa.html)
+* [More on Libraries vs Frameworks](http://martinfowler.com/bliki/InversionOfControl.html)
+* [Framework vs Toolkit vs Library] (http://stackoverflow.com/questions/3057526/framework-vs-toolkit-vs-library)
