@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) 03: Conditionals & Functions
 
-## Homework (due Tuesday 11/15)
+## [Homework](starter-code) (due Tuesday 11/15)
 * [Ages lab](starter-code/1-ages-lab) (started in class)
 * [Dice lab](starter-code/3-dice-lab) (started in class)
 * [Fizzbuzz](starter-code/4-fizzbuzz-homework)
