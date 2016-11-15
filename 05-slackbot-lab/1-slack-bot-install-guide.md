@@ -15,16 +15,14 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
  Navigate to the parent directory in which you want to create the folder that will contain your app code. This should be the parent directory whose subfolders contain your existing clones of the repos for this course -- for instance, in the folder structure shown below, you would navigate to the `javascript_development` folder:
 
-```
-javascript-development
-    L homework (existing: clone of GitHub homework repo Borgaard / jsd5-homework)
-    L sfjs5 (existing: clone of GitHub resources repo svodnik / sfjs5)
-    L myhubot (new repo you are about to create for your Slack bot code) 
-```
+    javascript-development
+        L homework (existing: clone of GitHub homework repo Borgaard / jsd5-homework)
+        L sfjs5 (existing: clone of GitHub resources repo svodnik / sfjs5)
+        L myhubot (new repo you are about to create for your Slack bot code) 
 
  Then execute the following command to create a new folder named `myhubot`:
 
-`$ mkdir myhubot`
+ `$ mkdir myhubot`
 
 4. **Move into that new directory:**
 
