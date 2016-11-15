@@ -24,7 +24,7 @@ javascript-development
 
 Then execute the following command to create a new folder named `myhubot`:
 
-    `$ mkdir myhubot`
+`$ mkdir myhubot`
 
 4. **Move into that new directory:**
 
