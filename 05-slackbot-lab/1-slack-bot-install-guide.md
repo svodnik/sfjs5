@@ -7,7 +7,7 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
 1. First, you'll need to [sign up for a free Heroku account](http://heroku.com).
 
-1. Next, [download and install the Heroku toolbelt](https://toolbelt.heroku.com/). This set of tools allows us to talk to Heroku's servers using the command line.
+2. Next, [download and install the Heroku toolbelt](https://toolbelt.heroku.com/). This set of tools allows us to talk to Heroku's servers using the command line.
 
 Then, open a terminal window, and type the following commands, in order:
 
@@ -30,11 +30,11 @@ Then execute the following command to create a new folder named `myhubot`:
 
     `$ cd myhubot`
 
-1. **Install Hubot and its dependencies (CoffeeScript, Yeoman, and the Hubot generator):**
+5. **Install Hubot and its dependencies (CoffeeScript, Yeoman, and the Hubot generator):**
 
     `$ npm install -g hubot coffee-script yo generator-hubot`
 
-1. **Using Yeoman, generate a Hubot bot:**
+6. **Using Yeoman, generate a Hubot bot:**
 
     `$ yo hubot --adapter="slack"`
 
@@ -46,25 +46,25 @@ Then execute the following command to create a new folder named `myhubot`:
 
     >Note: the `--adapter="slack"` option in the `yo` command above is a workaround for a dependency-related bug in `generator-hubot` causing the program to crash when it prompts the user for what adapter they want to use. If you specify the adapter on the command line as above, the broken prompting code will be skipped. (This is all documented in [this issue](https://github.com/github/generator-hubot/issues/64) in the `generator-hubot` repo.)
 
-1. **Install hubot-slack dependency and save it to your package.json:**
+7. **Install hubot-slack dependency and save it to your package.json:**
 
     `npm install hubot-slack --save`
 
     Now we need to push up our bot to Heroku.
 
-1. **Initialize your local repository:**
+8. **Initialize your local repository:**
 
     `$ git init`
 
-1. **Add all of your new files:**
+9. **Add all of your new files:**
 
     `$ git add .`
 
-1. **Commit your new files:**
+10. **Commit your new files:**
 
     `$ git commit -m "Initial Commit"`
 
-1. **Create a new app on Heroku:**
+11. **Create a new app on Heroku:**
 
     `$ heroku login`
 
@@ -97,15 +97,15 @@ Then execute the following command to create a new folder named `myhubot`:
 
     where `YourTokenGoesHere` is the API token provided by the instructor
 
-1. **Push all your code up to Heroku**
+13. **Push all your code up to Heroku**
 
     `$ git push heroku master`
 
-1. **Turn on your bot**
+14. **Turn on your bot**
 
     `$ heroku ps:scale web:1`
 
-1. **Test your bot locally to make sure it's working:**
+15. **Test your bot locally to make sure it's working:**
 
     `HUBOT_SLACK_TOKEN=TOKEN-GOES-HERE ./bin/hubot --adapter slack`
 
