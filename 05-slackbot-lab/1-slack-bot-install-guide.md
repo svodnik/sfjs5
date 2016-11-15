@@ -9,11 +9,11 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
 2. Next, [download and install the Heroku toolbelt](https://toolbelt.heroku.com/). This set of tools allows us to talk to Heroku's servers using the command line.
 
-Then, open a terminal window, and type the following commands, in order:
+ Then, open a terminal window, and type the following commands, in order:
 
 3. **Create your hubot directory:**
 
-Navigate to the parent directory in which you want to create the folder that will contain your app code. This should be the parent directory whose subfolders contain your existing clones of the repos for this course -- for instance, in the folder structure shown below, you would navigate to the `javascript_development` folder:
+ Navigate to the parent directory in which you want to create the folder that will contain your app code. This should be the parent directory whose subfolders contain your existing clones of the repos for this course -- for instance, in the folder structure shown below, you would navigate to the `javascript_development` folder:
 
 ```
 javascript-development
@@ -22,7 +22,7 @@ javascript-development
     L myhubot (new repo you are about to create for your Slack bot code) 
 ```
 
-Then execute the following command to create a new folder named `myhubot`:
+ Then execute the following command to create a new folder named `myhubot`:
 
 `$ mkdir myhubot`
 
@@ -77,15 +77,15 @@ Then execute the following command to create a new folder named `myhubot`:
     > where "myhubotapp" is a unique app name; any app name already used by a heroku user will fail with "Name is already taken." 
     If this happens, just repeat the command with a different app name. (The more unusual the name, the more likely it is to be unique.)
 
-<!--
- **Connect your local repo to heroku**
+    <!--
+    **Connect your local repo to heroku**
 
- `$ git remote add heroku https://git.heroku.com/myhubotapp`
+    `$ git remote add heroku https://git.heroku.com/myhubotapp`
 
- where `myhubotapp` is the unique app name you created in the previous command.
+    where `myhubotapp` is the unique app name you created in the previous command.
 
- > Note: If you get an error message saying this is already done, that's fine -- just move on to the next step.
- -->
+    > Note: If you get an error message saying this is already done, that's fine -- just move on to the next step.
+    -->
 
 12. **Add the following configs for Slack:**
 
