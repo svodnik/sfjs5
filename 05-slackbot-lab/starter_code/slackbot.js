@@ -1,5 +1,5 @@
 // Description:
-//
+// <description of this script's functionality>
 //
 // Dependencies:
 //   None
@@ -8,6 +8,14 @@
 //   None
 //
 // Commands:
+//  hubot <trigger> - <what the respond trigger does>
+//  <trigger> - <what the hear trigger does>
+//
+// Notes:
+//
+//
+// Author:
+// <github username of the original script author>
 //
 
 module.exports = function(robot) {
