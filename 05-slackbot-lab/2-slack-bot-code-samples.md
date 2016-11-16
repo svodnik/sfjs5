@@ -196,6 +196,12 @@ A Heroku app instance is known as a __dyno__. A free dyno
 
 If a sleeping web dyno receives web traffic, it will become active again after a short delay.
 
+If your dyno doesn't wake when you interact with your bot on Slack, go to the command line and issue the following command:
+
+`heroku ps:restart`
+
+Your bot should wake up after a few seconds.
+
 Further details:
 * [Free Dyno Hours](https://devcenter.heroku.com/articles/free-dyno-hours)
 * [App Sleeping on Heroku](https://blog.heroku.com/app_sleeping_on_heroku)

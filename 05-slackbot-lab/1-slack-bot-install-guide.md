@@ -109,4 +109,10 @@ Your instructor should provide you with a Hubot and an API token; be sure to hav
 
     where `TOKEN-GOES-HERE` is the API token provided by your instructor
 
-    > This gives output, then gives you a prompt that lets you interact with your hubot. Press Ctrl + C when you're done, to return to the shell prompt.
+    You'll receive a number of messages, including some warnings, which should not be a problem. When the messages stop, press Enter.
+    
+    You should have a prompt containing your bot name. 
+    
+    Press Ctrl + C when you're done, to return to the shell prompt.
+
+    For future testing, you can simply type ./bin/hubot from the myhubot directory.
