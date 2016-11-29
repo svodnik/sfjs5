@@ -1,0 +1,8 @@
+.complete-task {
+  color: blue;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}

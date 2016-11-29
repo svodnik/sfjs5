@@ -1,0 +1,12 @@
+#removed {
+  display: none;
+}
+
+.cross-off {
+  color: blue;
+  cursor: pointer;
+}
+
+.crossed-off {
+  text-decoration: line-through;
+}
