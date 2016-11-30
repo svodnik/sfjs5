@@ -2,17 +2,7 @@
 
 ## Homework (due Tuesday 12/6)
 
-Build on top of the favorite things list app (2_event_delegation_lab folder) to store your initial favorite things data in a JavaScript object 
-and interact with the object whenever the user interacts with the DOM.
-
-1. Use Handlebars to add any the initial data as well as any new DOM content.
-
-2. Store all of your data in a `faves` object.
-
-3. Organize your code so your app logic is DRY.
-
-4. Bonus: create a method you can reference in your app to compile your data to Handlebars templates, instead of relying on doing this every 
-time you need to add a DOM object.
+Recipes page (5_templating_lab folder)
 
 ## Pre-reading for Thursday:
 
