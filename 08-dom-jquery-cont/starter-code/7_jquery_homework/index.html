@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Build your own survey</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container">
+    <h1>Build your own survey</h1>
+    <form id="surveyBuilder" class="form-inline voffset">
+        <input id="question" class="form-control" type="text" placeholder="Enter question" aria-label="Enter question">
+        <input id="addQuestion" type="submit" value="Add to survey">
+    </form>
+    <form id="finalSurvey" class="voffset bg-info">
+        <ol id="surveyList">
+            <li class="form-group padout">
+                <label>What is the last song you listened to?</label>
+                <input type="text" class="form-control">
+            </li>
+            <li class="form-group padout">
+                <label>Favorite meme?</label>
+                <input type="text" class="form-control">
+            </li>
+        </ol>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="app.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+
+</html>
