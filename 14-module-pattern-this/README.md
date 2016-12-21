@@ -3,6 +3,7 @@
 ## Homework (due Tuesday 1/3)
 
 - `7-person-module` folder: Build a module that creates a person by following the steps in the `app.js` file.
+- Feedr project
 
 ## Bonus Project (optional)
 
