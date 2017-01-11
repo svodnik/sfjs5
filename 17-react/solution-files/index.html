@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>First React Project</title>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+    <script type="text/babel">
+      // A React Component
+      var state = {
+        title: 'React Components',
+        menu: ['Home', 'About']
+      }
+
+      var into = document.querySelector('#into');
+      ReactDOM.render(<Header {...state} />, into);
+
+      function Header(props) {
+        return (
+          <nav>
+            <h1>{props.title}</h1>
+            <Menu menu={props.menu} />
+          </nav>
+        )
+      }
+      function Menu(props) {
+        return (
+          <ul>
+            {props.menu.map(function(item) {
+              return <li>{item}</li>
+            })}
+          </ul>
+        )
+      }
+    </script>
+  </head>
+  <body>
+    <div id="into">
+        <!-- This element's contents will be replaced with our Header component. -->
+    </div>
+  </body>
+</html>
